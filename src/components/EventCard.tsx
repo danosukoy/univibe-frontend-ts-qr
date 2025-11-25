@@ -42,7 +42,7 @@ export default function EventCard({ event }: Props) {
 
       {qrData && (
         <div style={{marginTop:12}}>
-          <QrDisplay qrValue={qrData} />
+          <QrDisplay value={qrData} />
         </div>
       )}
     </div>
